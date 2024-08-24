@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+  height: 60vh;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: groove;
+}
+.main .one{
+  background-color: black;
+  height: 60vh;
+  width: 50%;
+}
+.main .one .content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .one .content button{
+  height: 50px;
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 20%;
+  font-size: 25px;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.main .one .content button:hover{
+  background-color: red;
+  color: #fff;
+  transform: scale(1.04);
+}
+.main .two{
+  height: 60vh;
+  width: 50%;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .two .box{
+  height: 50vh;
+  width: 30%;
+  background-color: black;
+  margin-left: 30%;
+  border-radius: 10px;
+}
+.main .two h2{
+  margin-left: 22%;
+  text-decoration: underline;
+}
+.main .two .box .stop{
+  height: 50px;
+  width: 50px;
+  margin-top: 50%;
+  border-radius: 50%;
+  margin-left: 30px;
+  background-color: #fff;
+}
+
+.main .two .box .wait{
+  height: 50px;
+  width: 50px;
+  margin-top: 40%;
+  border-radius: 50%;
+  margin-left: 30px;
+  background-color: #fff;
+}
+.main .two .box #wait:hover{
+  background-color: green;
+  }
+/* .wait1{
+  background-color: #fff;
+} */
+.main .two .box .go{
+  height: 50px;
+  width: 50px;
+  margin-top: 40%;
+  border-radius: 50%;
+  margin-left: 30px;
+  background-color: #fff;
+}
